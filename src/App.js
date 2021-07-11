@@ -1,9 +1,8 @@
-import { Button } from "react-bootstrap";
+import NavBarTop from "./components/NavBarTop";
 function App() {
   return (
-    <div className="App">
-      <p>My Portfolio</p>
-      <Button variant="primary">Primary</Button>
+    <div>
+      <NavBarTop />
     </div>
   );
 }
