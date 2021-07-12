@@ -2,6 +2,8 @@ import React from "react";
 import { Navbar, Nav, Image } from "react-bootstrap";
 import logo from "../assets/logo/logo.png";
 import "./NavBarTop.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const NavBarTop = () => {
   return (
@@ -19,7 +21,7 @@ const NavBarTop = () => {
             PortFolio
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav">
-            {/* <Image src={logo} className="myLogo" alt="logo" /> */}
+            <FontAwesomeIcon icon={faBars} className="toggle-icon" />
           </Navbar.Toggle>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto">

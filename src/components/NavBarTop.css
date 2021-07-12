@@ -8,9 +8,9 @@
 .myBody {
   font-family: "Roboto Condensed", sans-serif;
 }
-.myDiv {
-  /* height: 80px; */
-}
+/* .myDiv {
+  height: 80px;
+} */
 .myLogo {
   width: 1.5rem;
   margin-right: 10px;
@@ -32,8 +32,10 @@
 .navbar-brand {
   max-width: 3 rem;
   padding: 0 !important;
-  /* height: 4rem !important; */
 }
-.navbar-toggler {
-  /* border: 0 !important; */
+.navbar-toggler:hover {
+  border: solid 1px var(--primary-orange) !important;
+}
+.toggle-icon {
+  color: #fff;
 }
