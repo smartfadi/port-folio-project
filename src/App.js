@@ -1,8 +1,10 @@
-import NavBarTop from "./components/NavBarTop";
+import Header from "./components/Header/Header";
+import NavBarTop from "./components/NavBar/NavBarTop";
 function App() {
   return (
     <div>
       <NavBarTop />
+      <Header />
     </div>
   );
 }
