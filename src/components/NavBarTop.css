@@ -2,6 +2,8 @@
 
 :root {
   --primary-white: #fff;
+  --primary-orange: #f9ab00;
+  --primary-dark: rgba(255, 255, 255, 0);
 }
 .myBody {
   font-family: "Roboto Condensed", sans-serif;
@@ -21,9 +23,17 @@
   color: var(--primary-white) !important;
   margin-right: 0.75rem;
   margin-left: 0.75rem;
+  border-top: 0.1875rem solid var(--primary-dark);
+}
+.nav-link.active,
+.nav-link:hover {
+  border-top: 0.1875rem solid var(--primary-orange);
 }
 .navbar-brand {
   max-width: 3 rem;
   padding: 0 !important;
   /* height: 4rem !important; */
+}
+.navbar-toggler {
+  /* border: 0 !important; */
 }

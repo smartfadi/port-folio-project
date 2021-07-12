@@ -7,7 +7,7 @@ const NavBarTop = () => {
   return (
     <div className="myBody">
       <Navbar
-        collapseOnSelect
+        collapseOnSelect={false}
         expand="lg"
         bg="dark"
         variant="dark"
@@ -18,7 +18,9 @@ const NavBarTop = () => {
             <Image src={logo} className="myLogo" alt="logo" />
             PortFolio
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle aria-controls="responsive-navbar-nav">
+            {/* <Image src={logo} className="myLogo" alt="logo" /> */}
+          </Navbar.Toggle>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto">
               <Nav.Link className="nav-link" href="#home">
