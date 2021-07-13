@@ -8,9 +8,9 @@
 .myBody {
   font-family: "Roboto Condensed", sans-serif;
 }
-/* .myDiv {
-  height: 80px;
-} */
+nav {
+  z-index: 2;
+}
 .myLogo {
   width: 1.5rem;
   margin-right: 10px;

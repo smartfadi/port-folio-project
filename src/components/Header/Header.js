@@ -16,7 +16,9 @@ const Header = () => {
           loop
         />
         <br />
-        <Button variant="outline-warning">Contact Me!</Button>
+        <Button variant="outline-warning" className="myButton">
+          Contact Me!
+        </Button>
       </div>
     </div>
   );

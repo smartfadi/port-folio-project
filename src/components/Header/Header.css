@@ -18,22 +18,47 @@ body::-webkit-scrollbar {
   background: url("../../assets/bg1.png");
   background-size: cover;
   background-position: center;
-  height: 120vh;
+  height: 100vh;
 }
 .main-info {
   display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   font-family: "Roboto Condensed", sans-serif;
+  z-index: 1;
 }
 .main-info h1 {
   color: var(--primary-orange);
   text-transform: uppercase;
-  font-weight: 300;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 20px;
+  border: 2px solid rgb(51, 50, 50);
+  background-color: rgba(51, 50, 50, 1);
+  font-weight: bold;
 }
+
 .typed-text {
   font-size: 2rem;
   color: var(--primary-white);
+  font-weight: bold;
+}
+.myButton {
+  font-weight: bold !important;
+  border: 2px solid var(--primary-orange) !important;
+}
+@media (max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.7rem;
+  }
+  .typed-text {
+    font-size: 1.3rem;
+  }
 }
